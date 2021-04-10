@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(https://www.solidbackgrounds.com/images/950x350/950x350-black-solid-color-background.jpg);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+h1 {
+    color: rgb(253, 253, 253);
+    font-family: Dela Gothic One;
+    font-size: 40px;
+    transition: 1s;
+}
+
+h1:hover {
+    color: yellow;
+}
+
+.intro {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.img-responsive {
+    height: 100vh;
+    width: 98.7vw;
+}
+
+.intro-text {
+    width: 30%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 5s all ease-in-out;
+}
+
+.intro-appear {
+    opacity: 1;
+    transform: translateY(0px)
+}
+
+.image {
+    position: relative;
+    left: 800px;
+    bottom: 300px;
+    box-shadow: 10px 0px 10px 10px rgb(102, 97, 97);
+}
+
+p {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: Fredoka One;
+    cursor: pointer;
+}
+
+.intro-title {
+    justify-content: center;
+    display: flex;
+}
+
+h3 {
+    font-size: 50px;
+}
